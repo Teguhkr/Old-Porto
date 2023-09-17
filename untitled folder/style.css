@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 2%;
+    background-color: #F1F0E8;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+}
+
+.logo {
+  width: 45px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #e9c46a;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar a.active,
+.navbar a:hover{
+    font-weight: bolder;
+    color: black;
+}
+
+.home{
+    width: 100%;
+    overflow: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    justify-content: space-between;
+}
+
+.home-content{
+    max-width: 800px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+
+.btn {
+    position: relative;
+    width: 180px;
+    height: 48px;
+    display: inline-flex;
+    background:#ffde3d;
+    border-radius: 40px;
+    font-size: 19px;
+    color: #264653;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.home-sci a{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #ffde3d;
+    border-radius: 50%;
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    z-index: 1;
+}
+
+.home-sci a:hover,
+.btn:hover{
+    color: white;
+    background-color: #264653;
+}
+
+.home-img{
+    border-radius: 50%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background: #ffde3d;
+}
+
+.form-container {
+    background-color: #f1f0e8;
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group select {
+    height: 40px;
+    margin-bottom:10px ;
+}
+
+.checkbox-group {
+    display: -webkit-box;
+    align-items: center;
+    
+}
+
+.checkbox-group label {
+    margin-right: 15px;
+}
+
+button[type="submit"] {
+    background-color: #ffde3d;
+    color: #264653;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #264653;
+    color: white;
+}
+
+.table-container {
+    background-color: #f1f0e8;
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+.table-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+
+th,td{ 
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #F1F0E8;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.multimedia {
+    width: 100%;
+}
+
+.multimedia-container{
+    background-color: #f1f0e8;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+}
+
+.multimedia-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 50vh;
+    border-radius: 20px;
+}

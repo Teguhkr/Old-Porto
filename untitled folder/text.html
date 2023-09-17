@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header class="header">
+    <img src="assests/image/RevoU Logo.png" alt="Logo" class="logo">
+  <nav class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portofolio</a>
+  </nav>
+    </header>
+    <section class="home">
+        <div class="home-sci">
+          <a href="www.linkedin.com/in/teguh-karya-rizki"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://medium.com/"><i class="fa-brands fa-medium"></i></a>
+          <a href="https://github.com/Teguhkr"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="home-content">
+          <h1>Hi, I'm Teguh</h1>
+          <h3>Section Jayapura</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn">More</a>
+        </div>
+        <img src="/assests/image/kisspng-computer-icons-user-avatar-user-5b3bafe25d5119.7872830115306383063822.png" alt="Avatar" class="home-img"/>
+      </section>
+      <section class="form">
+        <div class="form-container">
+          <h3>Formulir</h3>
+          <form form action="/submit" method="post">
+        <div class="form-group">
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="name" placeholder="enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" placeholder="enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender :</label>
+          <select name="gender" id="gender">
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <div class="form-group checkbox-group">
+            <label for="">Intrests</label>
+            <input type="checkbox" id="intrest1" name="intrest[]" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="intrest2" name="intrest[]" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="intrest3" name="intrest[]" value="traveling">
+            <label for="traveling">Traveling</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="table">
+      <div class="table-container">
+        <h2>Sample Table</h2>
+        <table class="table">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Hobby</th>
+        </tr>
+        <tr>
+          <td>Naruto</td>
+          <td>32</td>
+          <td>Mukbang</td>
+        </tr>
+        <tr>
+          <td>Shikamaru</td>
+          <td>32</td>
+          <td>Sogi</td>
+        </tr>
+        <tr>
+          <td>Kakashi</td>
+          <td>48</td>
+          <td>Reading</td>
+        </tr>
+      </table>
+      </div>
+    </section>
+    <section class="multimedia">
+      <div class="multimedia-container">
+      <h3>Multimedia: </h3>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+      </div>
+    </section>
+</body>
+</html>
