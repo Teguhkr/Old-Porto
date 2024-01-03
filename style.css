@@ -359,3 +359,7 @@ iframe {
 .p-foot a:hover{
     color:#1d93fa;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
